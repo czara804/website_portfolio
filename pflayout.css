@@ -1,3 +1,5 @@
+/* <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> */
+/* <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by alicia_mb - www.freepik.com</a> */
 
 * {
     margin: 0%;
@@ -12,31 +14,78 @@ body {
     display: flex;
     flex-direction: column;
     background-color: darkgray;
+    font-family: 'Raleway', sans-serif;
  
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: cornflowerblue;
-    padding: 1%;
+    background-color: #0F1F2F;
+    padding: 0.5%;
 }
 
 nav a {
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+
 }
 
-.main-content {
-    height: 100vh;
+a:link {
+    color: wheat;
 }
+
+a:visited {
+    color: wheat;
+}
+
+nav a:hover {
+    background-color: thistle;
+    color: #0F1F2F;
+}
+
+nav div {
+    margin-left: 5%;
+    border-left: solid 1px wheat;
+}
+
+/* .main-content {
+    height: 100vh;
+} */
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: tomato;
+    margin: 0 auto 0 auto;
+    padding: 2% 2%;
+}
+
+.name {
+    background-color: teal;
+    font-size: 500%;
+}
+
+.page-title {
+   background-color: violet;
+}
+
 
 footer {
     display: flex;
-    background-color: blue;
+    background-color: whitesmoke;
     justify-content: space-between;
-    padding: 1%;
-    color: white;
+    align-items: center;
+    padding: 0.5%;
+    color: #0F1F2F;
+    font-family: 'Raleway', sans-serif;
+}
 
+footer img {
+    width: 25pt;
+    height: 25pt;
 }
 
 
