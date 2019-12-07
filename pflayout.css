@@ -12,11 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: darkgray;
-    /* width: 80vw; */
-    height: auto;
-    justify-items: center;
-    margin-left: 2vw;
-    margin-right: 2vw;
+ 
 }
 
 nav {
@@ -26,11 +22,8 @@ nav {
     padding: 1%;
 }
 
-
-li {
-    list-style-type: none;
-    display: inline;
-
+nav a {
+    text-decoration: none;
 }
 
 .main-content {
@@ -40,10 +33,10 @@ li {
 footer {
     display: flex;
     background-color: blue;
-    justify-items: space-around;
+    justify-content: space-between;
+    padding: 1%;
+    color: white;
 
 }
 
-.copyright {
 
-}
