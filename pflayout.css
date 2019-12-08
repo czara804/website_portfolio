@@ -13,7 +13,7 @@ body {
 #page-wrapper {
     display: flex;
     flex-direction: column;
-    background-color: darkgray;
+    background-color:snow;
     font-family: 'Raleway', sans-serif;
  
 }
@@ -32,11 +32,11 @@ nav a {
 
 }
 
-a:link {
+nav a:link {
     color: wheat;
 }
 
-a:visited {
+nav a:visited {
     color: wheat;
 }
 
@@ -48,6 +48,7 @@ nav a:hover {
 nav div {
     margin-left: 5%;
     border-left: solid 1px wheat;
+    padding-left: 1%;
 }
 
 /* .main-content {
@@ -57,19 +58,35 @@ nav div {
 
 .head {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-end;
     background-color: tomato;
     margin: 0 auto 0 auto;
     padding: 2% 2%;
 }
+
 
 .name {
     background-color: teal;
     font-size: 500%;
 }
 
+@media only screen and (max-width: 500px) {
+    .name {
+       font-size: 50px;
+       margin-left: 5%;
+       }
+    .page-title {
+        margin-left: 5%;
+    }
+
+}
+
 .page-title {
-   background-color: violet;
+    
+    background-color: violet;
+
 }
 
 
