@@ -1,0 +1,32 @@
+
+.main-contentc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    
+
+}
+
+.form-container {
+    box-shadow: 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: blue;
+}
+
+
+.form {
+    background-color: thistle;
+    
+    /* height: 45vh; */ */
+    
+    /* margin: 10%; */
+}
+
+.form div {
+    display: flex;
+    margin: 10%;
+}
