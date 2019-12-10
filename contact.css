@@ -13,8 +13,14 @@
     box-shadow: 10px 10px black;
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 40vw;
     background-color: blue;
+}
+
+@media only screen and (max-width: 600px){
+    .form-container {
+        width: 100vw;
+    }
 }
 
 
