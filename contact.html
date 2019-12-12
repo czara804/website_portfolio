@@ -1,4 +1,21 @@
-<!DOCTYPE html>
+<?php
+
+if($_POST["send"]) {
+    $recipient="cbzara@gmail.com";
+    $subject=$POST["subject"];
+    $sender=$POST["firstname""lastname"];
+    $email=$POST["email"];
+    $message=$POST["message"];
+
+    $mailBody="Name: $sendern\
+    Email: $email n\n\
+    $message;
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$email>");
+
+    $thankYou= "Thank you! Your message has been sent.";
+}
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,10 +31,10 @@
     <div id="page-wrapper">
     <nav>
         <div><a href="">CZ</a></div>
-        <div><a href="">About</a></div>
-        <div><a href="">Portfolio</a></div>
-        <div><a href="">Blog</a></div>
-        <div><a href="">Contact</a></div>
+        <div><a href="about.html">About</a></div>
+        <div><a href="portfolio.html">Portfolio</a></div>
+        <div><a href="blog.html">Blog</a></div>
+        <div><a href="contact.html">Contact</a></div>
     </nav>
     <div class="main-contentc">
     <header>
@@ -31,7 +48,8 @@
 
 
     <div class="form-container">
-        <div class="contact-form">
+        <?=$thankYou?>
+        <form method="POST" action="contact.php" class="contact-form">
             <div class="inputs">
                 <input type="text" name="firstname" class="input" placeholder="First Name">
                 <input type="text" name="lastname" class="input" placeholder="Last Name">
@@ -40,10 +58,10 @@
 
             </div>
             <div class="message">
-                <textarea placeholder="Message"></textarea>
-                <input type="btn" class="button" value="SEND">
+                <textarea name="message" placeholder="Message"></textarea>
+                <div><input type="btn" class="button" name="send" value="SEND"></div>
             </div>
-        </div>
+        </form>
     </div>
 
 

@@ -1,19 +1,19 @@
 
 .main-contentc {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
-    height: 90vh;
     background: url("placeholder.jpeg") no-repeat top center;
     background-size: cover;
     height: 100vh;
+    
 }
 
 .form-container {
-
+    width: 100%;
     padding: 0 20px;
-
 }
 
 
@@ -24,6 +24,7 @@
     padding: 30px;
     border-radius: 5px;
     display: flex;
+
 }
 
 .inputs {
@@ -36,8 +37,10 @@
     color: wheat;
 }
 
-.inputs, .message {
+.inputs, 
+.message {
     width: 48%;
+    padding: 2%;
 }
 
 .inputs .input,
@@ -47,20 +50,24 @@
     border: 0;
     border-bottom: 2px solid wheat;
     padding: 10px;
+    width: 100%;
+    outline: none;
 }
 
 .message textarea {
-    height: 60%;
+    height: 200px;
     color: wheat;
 }
 
 .button {
     background-color: wheat;
     color: #0F1F2F;
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
+    width: 90%;
 }
 
 

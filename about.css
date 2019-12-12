@@ -1,0 +1,58 @@
+.about {
+    padding: 10px;
+    margin-left: 50px;
+    width: 30%;
+    height: 100vh;
+    background-color: thistle;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+   }
+
+@media screen and (max-width: 600px) {
+    .about {
+        width: 95%;
+        margin-left: 0;
+        background:  rgb(0, 0, 0, 0.5);
+        color: aliceblue;
+    }
+}
+
+.pimg1 {
+    background-image: url("hattah.JPG");
+    background-size: cover;
+    height: 800px;
+    filter: saturate(70%);
+    margin-top: calc(-105vh);
+
+}
+
+.pimg2 {
+    background-image: url("microscope.JPG");
+    background-size: cover;
+    height: 800px;
+    filter: saturate(30%);
+    z-index: -1;
+}
+
+.pimg3 {
+    background-image: url("lisbon.jpeg");
+    background-size: cover;
+    height: 2000px;
+    filter: saturate(30%);
+}
+
+
+.about h2, p {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.skills {
+    background-color: aliceblue;
+    height: 30vh;
+}
+
+
+
