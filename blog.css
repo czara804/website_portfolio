@@ -38,7 +38,7 @@
 } */
 
 
-.blog-post1 {
+.blog-post {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -47,16 +47,17 @@
     border-bottom: 2px solid darkblue;
 }
 
-.blog-photo1 {
+.blog-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("placeholder.jpeg");
     width: 60vw;
-    height: 40vh;
+    height: 50vh;
     font-size: 5rem;
-    color: cornsilk;
+    color: whitesmoke;
+    font-family: ivymode, sans-serif;
     font-weight: 300;
+    margin-bottom: 5%;
 }
 
 /* .blog-post img {
@@ -86,7 +87,36 @@
     display: none;
 }
 
+#collapsible4 {
+    display: none;
+}
+
+#collapsible5 {
+    display: none;
+}
+
 /* .bposts-center {
     display: flex;
     flex-direction: column;
 } */
+
+#blog1photo {
+    background-image: url("blog1photo.jpg");
+
+}
+
+#blog2photo {
+    background-image: url("dragonprince.webp");
+}
+
+#blog3photo {
+    background-image: url("placeholder.jpeg");
+}
+
+#blog4photo {
+    background-image: url("placeholder.jpeg");
+}
+
+#blog5photo {
+    background-image: url("placeholder.jpeg");
+}

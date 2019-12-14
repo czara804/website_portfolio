@@ -1,7 +1,7 @@
 .about {
     padding: 10px;
     margin-left: 50px;
-    width: 30%;
+    width: 30rem;
     height: 95vh;
     background-color: thistle;
     position: sticky;
@@ -9,13 +9,20 @@
     z-index: 10;
    }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .about {
         width: 95%;
+        height: fit-content;
         margin-left: 0;
         background:  rgb(0, 0, 0, 0.5);
         color: aliceblue;
     }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        
+    }    
+    
 }
 
 .pimg1 {
@@ -48,6 +55,11 @@
     padding: 5px;
 }
 
+.about h3 {
+    margin-left: 20px;
+    padding: 3px;
+}
+
 
 .skills {
     background-color: aliceblue;
@@ -58,10 +70,23 @@
 
 .skills div {
     border-left: 1px solid black;
+    padding: 10px;
 }
 
 .skills-head {
-    text-align: center;
+    text-align:left;
     font-size: 200%;
     font-family: ivymode, sans-serif;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.cv {
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 4px;
+    background: black;
+    color: cornsilk;
+    font-weight: bold;
 }

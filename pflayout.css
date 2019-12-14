@@ -61,7 +61,7 @@ nav div {
     align-items: flex-end;
     background-color: aliceblue;
     margin: 0 auto 0 auto;
-    padding: 2% 2%;
+    padding: 2%;
     /* font-family: 'Playfair Display SC', serif; */
 }
 
@@ -75,6 +75,7 @@ nav div {
     text-transform: uppercase;
     font-weight: 600;
     font-style: normal;
+    margin-left: 5%;
 
 
 }
@@ -86,6 +87,8 @@ nav div {
        }
     .page-title {
         margin-left: 5%;
+        margin-right: 5%;
+        
     }
 
 }
