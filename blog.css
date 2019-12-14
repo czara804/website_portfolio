@@ -14,22 +14,37 @@
 .blog-summary {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 10%;
-    border-bottom: solid 2px slategrey;
+    flex-wrap: wrap;
+    filter: saturate(50%);
+
+    margin-bottom: 5%;
 }
 
 .blog-summary img {
-    width: 70%;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px){
+    .blog-summary img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* .blog-photo {
+        width: 80%;
+        height: 50%;
+    } */
 }
 
 .blog-summary a:hover {
     filter: brightness(150%);
 }
 
-.blogp1 {
+/* .blogp1 {
     position: relative;
     margin: 0 auto;
-}
+} */
 
 /* .blogp1 .date {
     position: absolute;
@@ -51,18 +66,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vw;
-    height: 50vh;
+    width: 70vw;
+    height: 70vh;
     font-size: 5rem;
     color: whitesmoke;
     font-family: ivymode, sans-serif;
     font-weight: 300;
     margin-bottom: 5%;
+    border-radius: 10px;
 }
 
-/* .blog-post img {
+.blog-post img {
     width: 60vw;
-} */
+    height: 40vh;
+}
 
 #collapsible {
     display: none;
@@ -110,13 +127,13 @@
 }
 
 #blog3photo {
-    background-image: url("placeholder.jpeg");
+    background-image: url("madewithcode.png");
 }
 
 #blog4photo {
-    background-image: url("placeholder.jpeg");
+    background-image: url("adriennetacke.jpg");
 }
 
 #blog5photo {
-    background-image: url("placeholder.jpeg");
+    background-image: url("googleearth.jpg");
 }
