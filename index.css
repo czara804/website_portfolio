@@ -1,0 +1,32 @@
+
+.main-content {
+    background-image: url(lines.jpg);
+    /* margin-left: 5em;
+    margin-right: 5em; */
+    height: 100em;
+   
+
+}
+
+header h1 {
+    font-size: 300%;
+    padding-top: 2em;
+    letter-spacing: 0.05em;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+    font-family: ivymode, sans-serif;
+    text-transform: uppercase;
+
+}
+
+.intro-invite {
+    padding: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    header h1 {
+    font-size: 500%;
+    padding-top: 3em;
+    padding-left: 4em;
+    }
+}

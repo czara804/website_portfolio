@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    background: url("placeholder.jpeg") no-repeat top center;
+    background: url("greenplace.jpeg") no-repeat top center;
     background-size: cover;
     height: 100vh;
     
@@ -16,6 +16,12 @@
     padding: 0 20px;
 }
 
+header {
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 200%;
+    font-family: ivymode, sans-serif;
+}
 
 .contact-form {
     max-width: 550px;
@@ -60,8 +66,8 @@
 }
 
 .button {
-    background-color: wheat;
-    color: #0F1F2F;
+    background-color: #0F1F2F;
+    color: wheat;
     padding: 15px;
     font-weight: bold;
     border-radius: 5px;
@@ -78,6 +84,10 @@
 
     .input, .message {
         width: 100%;
+    }
+
+    header {
+        font-size: 100%;
     }
 }
 

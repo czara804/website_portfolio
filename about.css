@@ -18,10 +18,13 @@
         color: aliceblue;
     }
     .skills {
-        display: flex;
         flex-direction: column;
-        
+        flex-wrap: wrap;
     }    
+
+    .pimg1 {
+        margin-top: calc(-70vh);
+    }
     
 }
 

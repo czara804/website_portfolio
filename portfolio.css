@@ -1,5 +1,7 @@
 
-
+.main-contentport {
+   
+}
 
 .preamble {
     margin: 5%;
@@ -21,6 +23,7 @@
 @media only screen and (max-width: 700px){
     .portfolio-grid {
         grid-template-columns: 1fr;
+        height: 2000px;
     }
 
 }
@@ -53,8 +56,7 @@
     width: 280px;
     height: 250px;
     filter: saturate(50%);
-    /* border-radius: 90%; */
-    /* border: solid 2px grey; */
+
 }
 
 .text {
