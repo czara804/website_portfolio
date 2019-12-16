@@ -14,14 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color:snow;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Poppins', sans-serif;
  
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #0F1F2F;
+    background-color:Z#E3B876;
     padding: 0.5%;
 }
 
@@ -33,15 +34,15 @@ nav a {
 }
 
 nav a:link {
-    color: wheat;
+    color:#282C5D;
 }
 
 nav a:visited {
-    color: wheat;
+    color: #282C5D;
 }
 
 nav a:hover {
-    background-color: thistle;
+    background-color: #957A51;
     color: #0F1F2F;
 }
 
@@ -52,14 +53,12 @@ nav div {
 }
 
 
-
-
 .head {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: aliceblue;
+    background-color: #E3B876;
     margin: 0 auto 0 auto;
     padding: 2%;
     /* font-family: 'Playfair Display SC', serif; */
@@ -76,6 +75,7 @@ nav div {
     font-weight: 600;
     font-style: normal;
     margin-left: 5%;
+    color: #282C5D;
 
 
 }
@@ -94,8 +94,7 @@ nav div {
 }
 
 .page-title {
-    
-    background-color: violet;
+    padding-left: 4em;
 
 }
 

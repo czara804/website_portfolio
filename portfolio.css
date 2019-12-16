@@ -1,17 +1,24 @@
 
 .main-contentport {
-   
+    background-image: url(ballroom.jpg);
+    background-size: cover;
 }
 
 .preamble {
     margin: 5%;
     text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.headpf {
+    color: whitesmoke;
 }
 
 
 .portfolio-grid {
     
-    display: grid;
+    display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 2%;
@@ -28,15 +35,6 @@
 
 }
 
-.p-itemp{
-    /* background-color: royalblue; */
-
-}
-
-.p-itemw {
-    background-color:skyblue;
-
-}
 
 .card {
     display: flex;

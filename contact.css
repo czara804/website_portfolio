@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    background: url("greenplace.jpeg") no-repeat top center;
+    background: url("girlclose.png") no-repeat top center;
     background-size: cover;
     height: 100vh;
     
@@ -17,7 +17,7 @@
 }
 
 header {
-    color: whitesmoke;
+    color: #0F1C2C;
     font-weight: 800;
     font-size: 200%;
     font-family: ivymode, sans-serif;
