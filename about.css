@@ -19,40 +19,43 @@
     .about {
         width: 95%;
         height: fit-content;
-        margin-left: 0;
+        margin-left: 5px;
         background:  rgb(0, 0, 0, 0.5);
         color: aliceblue;
     }
     .skills {
         flex-direction: column;
         flex-wrap: wrap;
-        /* width: fit-content; */
         
     }    
 
-    .comms {
-        width: fit-content;
+    .skills div {
+        width: 95%;
     }
+
     .pimg1 {
         margin-top: calc(-70vh);
-    }
+    } 
     
 }
 
 .ds {
     background-color: #0F1C2C;
     width: 31%;
+    text-align: center;
 }
 
 .comms {
     background-color: #213951;
     width: 31%;
+    text-align: center;
 }
 
 .hob {
     /* background-color: #33507A; */
     background-color: #0F1C2C;
     width: 31%;
+    text-align: center;
 }
 
 
@@ -99,7 +102,7 @@
 
 
 .skills {
-    background-color: #0F1C2C;
+    background-color: whitesmoke;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -110,6 +113,7 @@
 .skills div {
     border-left: 5px solid #F0CA84;
     padding: 10px;
+    
 }
 
 .skills-head {
