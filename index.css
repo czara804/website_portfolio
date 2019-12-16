@@ -1,6 +1,6 @@
 
 .main-content {
-    background-image: url(lines.jpg);
+    background-image: url(vball.jpg);
     /* margin-left: 5em;
     margin-right: 5em; */
     height: 100em;
@@ -15,6 +15,7 @@
     text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
     font-family: ivymode, sans-serif;
     text-transform: uppercase;
+    color: whitesmoke;
 
 }
 
@@ -32,6 +33,6 @@
 
 .intro-head {
     padding-top: 5em;
-    padding-left: 6em;
+    padding-left: 4em;
 }
 }
