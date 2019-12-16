@@ -22,7 +22,7 @@
 
 .intro-invite {
     padding: 3em;
-    margin-left: 2em;
+    margin-left: 16em;
 
 }
 
@@ -33,6 +33,15 @@
 
 .intro-head {
     padding-top: 5em;
-    padding-left: 4em;
+    padding-left: 19em;
+    animation-name: title;
+    animation-duration: 3s;
+
 }
+}
+
+@keyframes title {
+    from {padding-top: 0em;}
+    to {padding-top: 5em;}
+
 }

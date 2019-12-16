@@ -1,3 +1,7 @@
+.wrapper {
+    background-color:  #0F1C2C;
+}
+
 .about {
     padding: 5px;
     margin-left: 50px;
@@ -7,7 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    border-left: 2px solid #0F1C2C ;
+    border-left: 3px solid #0F1C2C ;
    }
 
 @media screen and (max-width: 800px) {
@@ -20,11 +24,18 @@
     }
     .skills {
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }    
 
+    .ds {
+        width: 400px;
+    }
+    .comms {
+        width: 100%;
+    }
+
     .pimg1 {
-        margin-top: calc(-70vh);
+        margin-top: calc(-50vh);
     }
     
 }
@@ -48,15 +59,19 @@
 .pimg1 {
     background-image: url("hattah.JPG");
     background-size: cover;
+    margin-left: 1em;
+    margin-right: 1em;
     height: 800px;
     filter: saturate(50%);
-    margin-top: calc(-100vh);
+    margin-top: calc(-92vh);
 
 }
 
 .pimg2 {
     background-image: url("trees.jpg");
     background-size: cover;
+    margin-left: 1em;
+    margin-right: 1em;
     height: 800px;
     filter: saturate(30%);
     z-index: -1;
@@ -65,6 +80,8 @@
 .pimg3 {
     background-image: url("lisbon.jpeg");
     background-size: cover;
+    margin-left: 1em;
+    margin-right: 1em;
     height: 2000px;
     filter: saturate(30%);
 }
@@ -82,11 +99,13 @@
 
 
 .skills {
-    background-color: aliceblue;
+    background-color: #E3B876;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     color: #F0CA84;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .skills div {
