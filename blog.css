@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: steelblue;
+    background-color:#0F1C2C;
+    color: whitesmoke;
 }
 
 
@@ -60,6 +61,7 @@
     padding: 10%;
     margin: 2%;
     border-bottom: 2px solid darkblue;
+    
 }
 
 .blog-photo {
@@ -119,21 +121,30 @@
 
 #blog1photo {
     background-image: url("blog1photo.jpg");
+    background-size: cover;
 
 }
 
 #blog2photo {
     background-image: url("dragonprince.webp");
+    background-size: cover;
 }
 
 #blog3photo {
     background-image: url("madewithcode.png");
+    background-size: cover;
 }
 
 #blog4photo {
     background-image: url("adriennetacke.jpg");
+    background-size: cover;
 }
 
 #blog5photo {
-    background-image: url("googleearth.jpg");
+    background-image: url("pin.jpg");
+    background-size: cover;
+}
+
+h2 {
+    text-transform: uppercase;
 }
