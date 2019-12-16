@@ -16,7 +16,9 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    filter: saturate(50%);
+    
+    filter: grayscale(100%); 
+    
 
     margin-bottom: 5%;
 }

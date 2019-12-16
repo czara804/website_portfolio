@@ -4,7 +4,7 @@
 
 .about {
     padding: 5px;
-    margin-left: 50px;
+    margin-left: 25px;
     width: 30rem;
     height: 90vh;
     background-color:#0F1C2C;
@@ -26,54 +26,52 @@
     .skills {
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: stretch;
+        /* width: fit-content; */
+        
     }    
 
-    .ds {
-        width: 200%;
-    }
     .comms {
-        width: 100%;
+        width: fit-content;
     }
-
     .pimg1 {
-        margin-top: calc(-50vh);
+        margin-top: calc(-70vh);
     }
     
 }
 
 .ds {
     background-color: #0F1C2C;
-    width: 33%;
+    width: 31%;
 }
 
 .comms {
     background-color: #213951;
-    width: 33%;
+    width: 31%;
 }
 
 .hob {
-    background-color: #33507A;
-    width: 33%;
+    /* background-color: #33507A; */
+    background-color: #0F1C2C;
+    width: 31%;
 }
 
 
 .pimg1 {
     background-image: url("hattah.JPG");
     background-size: cover;
-    margin-left: 1em;
-    margin-right: 1em;
+    /* margin-left: 1em;
+    margin-right: 1em; */
     height: 800px;
     filter: saturate(50%);
-    margin-top: calc(-91vh);
+    margin-top: calc(-92vh);
 
 }
 
 .pimg2 {
     background-image: url("trees.jpg");
     background-size: cover;
-    margin-left: 1em;
-    margin-right: 1em;
+    /* margin-left: 1em;
+    margin-right: 1em; */
     height: 800px;
     filter: saturate(30%);
     z-index: -1;
@@ -82,8 +80,8 @@
 .pimg3 {
     background-image: url("lisbon.jpeg");
     background-size: cover;
-    margin-left: 1em;
-    margin-right: 1em;
+    /* margin-left: 1em;
+    margin-right: 1em; */
     height: 2000px;
     filter: saturate(30%);
 }
@@ -101,13 +99,12 @@
 
 
 .skills {
-    background-color: #E3B876;
+    background-color: #0F1C2C;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     color: #F0CA84;
-    margin-left: 1em;
-    margin-right: 1em;
+
 }
 
 .skills div {
@@ -116,11 +113,11 @@
 }
 
 .skills-head {
-    text-align:left;
-    font-size: 200%;
+    text-align:center;
+    font-size: 300%;
     font-family: ivymode, sans-serif;
-    margin-left: 8%;
-    margin-top: 5%;
+    /* margin-left: 5%; */
+    margin-top: 10%;
 }
 
 .cv {
