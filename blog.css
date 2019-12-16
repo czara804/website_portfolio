@@ -16,10 +16,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
     filter: grayscale(100%); 
-    
-
     margin-bottom: 5%;
 }
 
@@ -62,7 +59,8 @@
     align-items: flex-start;
     padding: 10%;
     margin: 2%;
-    border-bottom: 2px solid darkblue;
+    border-left: 2px solid darkblue;
+    border-top: 2px solid darkblue;
     
 }
 

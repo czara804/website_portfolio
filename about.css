@@ -6,12 +6,12 @@
     padding: 5px;
     margin-left: 25px;
     width: 30rem;
-    height: 90vh;
+    height: fit-content;
     background-color:#0F1C2C;
     position: sticky;
     top: 0;
     z-index: 10;
-    border-left: 3px solid whitesmoke;
+    /* border-left: 3px solid whitesmoke; */
     color: whitesmoke;
    }
 
