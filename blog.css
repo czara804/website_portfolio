@@ -44,9 +44,9 @@
 /* .blogp1 {
     position: relative;
     margin: 0 auto;
-} */
+}
 
-/* .blogp1 .date {
+.blogp1 .date {
     position: absolute;
     bottom: 40%;
     left: 25%;
@@ -81,6 +81,11 @@
 .blog-post img {
     width: 60vw;
     height: 40vh;
+}
+
+.lbl-toggle {
+    cursor: pointer;
+    font-weight:bolder;
 }
 
 #collapsible {
@@ -120,28 +125,28 @@
 } */
 
 #blog1photo {
-    background-image: url("blog1photo.jpg");
+    background-image: url("images/blog1photo.jpg");
     background-size: cover;
 
 }
 
 #blog2photo {
-    background-image: url("dragonprince.webp");
+    background-image: url("images/dragonprince.webp");
     background-size: cover;
 }
 
 #blog3photo {
-    background-image: url("madewithcode.png");
+    background-image: url("images/madewithcode.png");
     background-size: cover;
 }
 
 #blog4photo {
-    background-image: url("adriennetacke.jpg");
+    background-image: url("images/adriennetacke.jpg");
     background-size: cover;
 }
 
 #blog5photo {
-    background-image: url("pin.jpg");
+    background-image: url("images/pin.jpg");
     background-size: cover;
 }
 

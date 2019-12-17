@@ -60,7 +60,7 @@
 
 
 .pimg1 {
-    background-image: url("hattah.JPG");
+    background-image: url("images/hattah.JPG");
     background-size: cover;
     /* margin-left: 1em;
     margin-right: 1em; */
@@ -71,7 +71,7 @@
 }
 
 .pimg2 {
-    background-image: url("trees.jpg");
+    background-image: url("images/trees.jpg");
     background-size: cover;
     /* margin-left: 1em;
     margin-right: 1em; */
@@ -81,7 +81,7 @@
 }
 
 .pimg3 {
-    background-image: url("lisbon.jpeg");
+    background-image: url("images/lisbon.jpeg");
     background-size: cover;
     /* margin-left: 1em;
     margin-right: 1em; */
@@ -126,7 +126,7 @@
 
 .cv {
     border: 2px solid black;
-    border-radius: 10%;
+    /* border-radius: 25%; */
     margin: 20px;
     padding: 4px;
     background: black;
