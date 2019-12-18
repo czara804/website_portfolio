@@ -162,8 +162,14 @@ The header banner with name logo was styled in yellow and black are easy to read
 - Mood Board 
 - Wireframes
 - Started with Navigation and Footer as bookends for page
-Layout for portfolio using grid and flex component
-Layout for blog with collapsible text and gallery 
-Contact via form 
-About using parallax for personal images to have ‘journey feel’ 
-Homepage with central image to tie together aesthetic and then styled with colour swatches 
+- Layout for portfolio using grid and flex component with placeholder text. 
+
+![Process](docs/screenshots/process_about.png)
+![Process](docs/screenshots/process_blog.png)
+![Process](docs/screenshots/process_contact.png)
+![Process](docs/screenshots/process_home.png)
+
+- Layout for blog with collapsible text and gallery 
+- Contact via netlify form (attempted php)
+- About using parallax for personal images to have ‘journey feel’ 
+- Homepage with central image to tie together aesthetic and then styled with colour swatches 
