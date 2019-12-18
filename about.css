@@ -68,6 +68,7 @@
         background:  rgb(0, 0, 0, 0.5);
         color: aliceblue;
         z-index: 20;
+        position: relative;
     }
     /* skills into column */
     .skills {
@@ -80,9 +81,9 @@
     }
 
     .pimg1 {
-        margin-top: calc(-90vh);
-        z-index: -2;
+        margin-top: calc(-90vh); 
     } 
+
     
 }
 
@@ -95,7 +96,8 @@
     height: 800px;
     filter: saturate(50%);
     margin-top: calc(-92vh);
-
+    z-index: -1;
+    position: relative;
 }
 
 .pimg2 {
@@ -104,6 +106,7 @@
     height: 1200px;
     filter: saturate(30%);
     z-index: -1;
+    position: relative;
 }
 
 .pimg3 {
@@ -111,7 +114,8 @@
     background-size: cover;
     height: 2000px;
     filter: saturate(30%);
-    z-index: -3;
+    z-index: -1;
+    position: relative;
 }
 
 /* adjustments to headings in about me box */
