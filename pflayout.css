@@ -91,12 +91,13 @@ nav div {
         margin-right: 5%;   
     }
     nav {
-        width: fit-content;
+       flex-direction: column;
+        overflow: auto;
         /* padding-right: 10%; */
     }
-    nav div:nth-child(5) {
+    /* nav div:nth-child(5) {
         margin-right: 10px;
-    }
+    } */
 
 }
 
