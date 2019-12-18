@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #FCEBE6;
 }
 
 #page-wrapper {
@@ -62,6 +62,11 @@ nav div {
     background-color: #E3B876;
     margin: 0 auto 0 auto;
     padding: 2%;
+    /* background-image: url(images/cement.png);
+    background-repeat: none; */
+    background-color: #74685B;
+    color: #FCEBE6;
+    text-transform: uppercase;
     /* font-family: 'Playfair Display SC', serif; */
 }
 
@@ -76,7 +81,7 @@ nav div {
     font-weight: 600;
     font-style: normal;
     margin-left: 5%;
-    color: #282C5D;
+    color: #FCEBE6;
 
 
 }

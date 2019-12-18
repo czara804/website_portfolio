@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#0F1C2C;
+    background-image: url(images/womankind.jpeg);
+    background-size: contain;
     color: whitesmoke;
+    color: #9F6C65;
+    font-weight: bolder;
 }
 
 
 .blog-intro {
     margin: 10%;
+    background-color: #D9A590;
     
 }
 
@@ -28,7 +32,13 @@
 .blog-summary ul {
     display: flex;
     margin-left: 6%;
-    text-decoration: none;
+    list-style: none;
+    color: tomato;
+    
+}
+
+.blog-summary li {
+    color: tomato;
 }
 
 @media screen and (max-width: 1070px) {

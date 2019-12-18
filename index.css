@@ -1,6 +1,8 @@
 
 .main-content {
-    background-image: url(images/hattahground.JPG);
+    background-image: url(images/concrete-wall-3059489.jpg);
+    background-size: cover;
+    filter: brightness(100%);
     /* margin-left: 5em;
     margin-right: 5em; */
     height: 80em;
@@ -13,7 +15,7 @@
     padding-top: 1em;
     letter-spacing: 0.05em;
     text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
-    font-family: ivymode, sans-serif;
+    font-family: raleway, sans-serif;
     text-transform: uppercase;
     color: whitesmoke;
     border-left: 3px solid whitesmoke;
@@ -58,17 +60,16 @@
 }
 
 .gif {
-    display: flex;
-    justify-content: space-around;
+    align-self: center;
     padding: 10%;
-    height: 500px;
-    width: 100px;
+    
+    box-sizing: content-box;
    
 }
 
 .gif img {
     border: 1px solid whitesmoke;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     filter:saturate(40%);
     
 }

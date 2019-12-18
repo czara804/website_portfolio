@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    background: url("images/girlclose.png") no-repeat top center;
+    background: url("images/pinkgirl.png") no-repeat top center;
     background-size: cover;
     height: 100vh;
     
@@ -17,7 +17,7 @@
 }
 
 header {
-    color: #0F1C2C;
+    color: #9F6C65;
     font-weight: 800;
     font-size: 200%;
     font-family: ivymode, sans-serif;
@@ -66,7 +66,7 @@ header {
 }
 
 .button {
-    background-color: #0F1F2F;
+    background-color: #9F6C65;
     color: wheat;
     padding: 15px;
     font-weight: bold;
