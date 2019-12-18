@@ -27,7 +27,7 @@
 @media only screen and (max-width: 700px){
     .portfolio-grid {
         grid-template-columns: 1fr;
-        height: 2000px;
+        height: 2200px;
     }
 
 }

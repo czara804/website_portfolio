@@ -62,16 +62,17 @@
 @media screen and (max-width: 800px) {
     .about {
         width: 95%;
-        height: fit-content;
+        /* height: fit-content; */
+        height: 1000px;
         margin-left: 5px;
         background:  rgb(0, 0, 0, 0.5);
         color: aliceblue;
+        z-index: 20;
     }
     /* skills into column */
     .skills {
         flex-direction: column;
         flex-wrap: wrap;
-        
     }    
 
     .skills div {
@@ -79,7 +80,8 @@
     }
 
     .pimg1 {
-        margin-top: calc(-70vh);
+        margin-top: calc(-90vh);
+        z-index: -2;
     } 
     
 }
@@ -109,6 +111,7 @@
     background-size: cover;
     height: 2000px;
     filter: saturate(30%);
+    z-index: -3;
 }
 
 /* adjustments to headings in about me box */
