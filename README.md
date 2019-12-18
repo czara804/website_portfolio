@@ -66,12 +66,15 @@ Contact
 At the top of each page for ease of access. The visited colours and underline have been removed as they disrupted the back and forth flow of the user. The links the in the navigation bar highlight when there is a hover and the cursor has been made a pointer. 
 
 ![nav bar](docs/screenshots/nav.png)
+![header mobile](docs/screenshots/footer_mobile.png)
 
 
 **Footer**
 The footer is at the bottom of each page and contains icons as anchors for professional links such as Linkedin and GitHub, and social links (Instagram) that give an impression of personality. The icons are shaped as hexagons to fit with the Art deco theme and coloured to quickly identify between them. 
 
 ![footer](docs/screenshots/footer.png)
+
+
 
 Components 
 'About' sticky container 

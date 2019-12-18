@@ -68,7 +68,6 @@
         background:  rgb(0, 0, 0, 0.5);
         color: aliceblue;
         z-index: 20;
-        position: sticky;
         
     }
     /* skills into column */
@@ -83,9 +82,16 @@
 
     .pimg1 {
         margin-top: calc(-90vh); 
+        -webkit-transform:translate3d(0,0,0);
     } 
 
+    .pimg2 {
+        -webkit-transform:translate3d(0,0,0); 
+    }
     
+    .pimg3 {
+        -webkit-transform:translate3d(0,0,0);
+    }
 }
 
 
