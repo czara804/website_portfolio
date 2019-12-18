@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color:#E3B876;
 }
 
 #page-wrapper {
@@ -88,8 +88,14 @@ nav div {
        }
     .page-title {
         margin-left: 5%;
-        margin-right: 5%;
-        
+        margin-right: 5%;   
+    }
+    nav {
+        width: 100%;
+        /* padding-right: 10%; */
+    }
+    nav div:nth-child(5) {
+        margin-right: 10px;
     }
 
 }

@@ -44,6 +44,8 @@ The 'Blog' contains a gallry, and individual posts each with a link to the origi
 ## Wireframes
 
 
+
+
 ## Functionality
 
 **Navigation Bar**
