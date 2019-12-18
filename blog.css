@@ -78,8 +78,8 @@
     align-items: flex-start;
     padding: 10%;
     margin: 2%;
-    border-left: 2px solid darkblue;
-    border-top: 2px solid darkblue;
+    border-left: 2px solid  #D9A590;
+    border-top: 2px solid #9F6C65;
     
 }
 
@@ -90,7 +90,6 @@
     width: 70vw;
     height: 70vh;
     font-size: 5rem;
-    color: whitesmoke;
     font-family: ivymode, sans-serif;
     font-weight: 300;
     margin-bottom: 5%;
