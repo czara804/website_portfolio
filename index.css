@@ -1,9 +1,9 @@
 
 .main-content {
-    background-image: url(images/vball.jpg);
+    background-image: url(images/hattahground.JPG);
     /* margin-left: 5em;
     margin-right: 5em; */
-    height: 100em;
+    height: 80em;
    
 
 }
@@ -16,6 +16,7 @@
     font-family: ivymode, sans-serif;
     text-transform: uppercase;
     color: whitesmoke;
+    border-left: 3px solid whitesmoke;
 
 }
 
@@ -23,6 +24,7 @@
 .intro-invite {
     padding: 3em;
     margin-left: 16em;
+    border-left: 3px solid whitesmoke;
 
 }
 
@@ -32,8 +34,8 @@
     }
 
 .intro-head {
-    padding-top: 5em;
-    padding-left: 19em;
+    padding-top: 3em;
+    padding-left: 15em;
     animation-name: title;
     animation-duration: 3s;
 
@@ -48,7 +50,25 @@
 
 
 .blurb {
-    padding-top: 15em;
+    padding-top: 3em;
+    padding-left: 5em;
     margin-right: 16em;
-    margin-left: 19em;
+    margin-left: 25em;
+    border-left: 3px solid whitesmoke;
+}
+
+.gif {
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    height: 500px;
+    width: 100px;
+   
+}
+
+.gif img {
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    filter:saturate(40%);
+    
 }
