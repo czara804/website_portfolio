@@ -36,7 +36,12 @@
     padding-left: 19em;
     animation-name: title;
     animation-duration: 3s;
+}
 
+.blurb {
+    padding-top: 20%;
+    margin-right: 16em;
+    margin-left: 19em;
 }
 }
 
@@ -48,8 +53,8 @@
 }
 
 /* elaborations alignment */
-.blurb {
-    padding-top: 15em;
-    margin-right: 16em;
-    margin-left: 19em;
+.blurb p {
+    margin-left: 0;  
+    margin-right: 50%;
+    padding-top: 30%;
 }
