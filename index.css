@@ -1,13 +1,12 @@
-
+/* homepage background */
 .main-content {
     background-image: url(images/vball.jpg);
-    /* margin-left: 5em;
-    margin-right: 5em; */
     height: 100em;
    
 
 }
 
+/* Name/Logo */
 .intro-head h1 {
     font-size: 300%;
     padding-top: 1em;
@@ -19,13 +18,14 @@
 
 }
 
-
+/* elaborations */
 .intro-invite {
     padding: 3em;
     margin-left: 16em;
 
 }
 
+/* readjust size for large screens */
 @media screen and (min-width: 700px) {
     .intro-head h1 {
     font-size: 500%;
@@ -40,13 +40,14 @@
 }
 }
 
+/* animation for homepage, drop down from top */
 @keyframes title {
     from {padding-top: 0em;}
     to {padding-top: 5em;}
 
 }
 
-
+/* elaborations alignment */
 .blurb {
     padding-top: 15em;
     margin-right: 16em;

@@ -1,3 +1,4 @@
+/* introduction to blog with instructions */
 .blog-header {
     display: flex;
     flex-direction: column;
@@ -12,6 +13,7 @@
     
 }
 
+/* navigation for blog */
 .blog-summary {
     display: flex;
     justify-content: space-around;
@@ -20,17 +22,20 @@
     margin-bottom: 5%;
 }
 
+/* set uniform size for blog navigation */
 .blog-summary img {
     width: 200px;
     height: 200px;
 }
 
+/* remove bullets */
 .blog-summary ul {
     display: flex;
     margin-left: 6%;
     list-style: none;
 }
 
+/* media query for blog navigation so rearrange pictures and titles */
 @media screen and (max-width: 1070px) {
     .blog-summary ul {
         flex-wrap: wrap;
@@ -43,25 +48,12 @@
     }
 }
 
-
-@media screen and (max-width: 500px){
-    /* .blog-summary img {
-        width: 100px;
-        height: 100px;
-    } */
-
-  
-
-    /* .blog-photo {
-        width: 80%;
-        height: 50%;
-    } */
-}
-
+/* increase brightness for hover to select */
 .blog-summary a:hover {
     filter: brightness(150%);
 }
 
+/* cordon off each blog post with border and align to left */
 .blog-post {
     display: flex;
     flex-direction: column;
@@ -73,6 +65,7 @@
     
 }
 
+/* keep uniform size for each blog photo backgrouns, date on top of image */
 .blog-photo {
     display: flex;
     justify-content: center;
@@ -87,29 +80,16 @@
     border-radius: 10px;
 }
 
-.blog-post img {
-    width: 60vw;
-    height: 40vh;
-}
 
+/* Read more cursor change to indicate click */
 .lbl-toggle {
     cursor: pointer;
     font-weight:bolder;
 }
 
+/* hide checkbox for each post id*/
 #collapsible {
     display: none;
-}
-
-.wrap-collapsible .collapsible-content {
-    overflow-y: hidden;
-    height: 0;
-    transition: height 0.3s ease;
-}
-
-.wrap-collapsible > input[type="checkbox"]:checked ~.collapsible-content {
-    height: auto;
-    overflow: visible;
 }
 
 #collapsible2 {
@@ -128,11 +108,22 @@
     display: none;
 }
 
-/* .bposts-center {
-    display: flex;
-    flex-direction: column;
-} */
 
+/* transition when read me expanded */
+.wrap-collapsible .collapsible-content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+}
+
+/* reconfigure height when box checked to fit blog post content */
+.wrap-collapsible > input[type="checkbox"]:checked ~.collapsible-content {
+    height: auto;
+    overflow: visible;
+}
+
+
+/* background images for each photo to allow date to sit on top. */
 #blog1photo {
     background-image: url("images/blog1photo.jpg");
     background-size: cover;

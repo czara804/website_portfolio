@@ -1,4 +1,4 @@
-
+/* Background image and alignment for page */
 .main-contentc {
     box-sizing: border-box;
     display: flex;
@@ -16,6 +16,7 @@
     padding: 0 20px;
 }
 
+/* want to get in touch banner */
 header {
     color: #0F1C2C;
     font-weight: 800;
@@ -23,6 +24,7 @@ header {
     font-family: ivymode, sans-serif;
 }
 
+/* Transparent background for form */
 .contact-form {
     max-width: 550px;
     margin: 0 auto;
@@ -30,15 +32,16 @@ header {
     padding: 30px;
     border-radius: 5px;
     display: flex;
-
 }
 
+/* align inputs into column */
 .inputs {
     display: flex;
     flex-direction: column;
     margin-right: 4%;
 }
 
+/* input text colour */
 .input {
     color: wheat;
 }
@@ -48,6 +51,7 @@ header {
     width: 48%;
     padding: 2%;
 }
+
 
 .inputs .input,
 .message textarea {
@@ -61,22 +65,29 @@ header {
 }
 
 .message textarea {
-    height: 200px;
+    height: 180px;
     color: wheat;
 }
 
+/* format send button, outset border */
 .button {
     background-color: #0F1F2F;
     color: wheat;
     padding: 15px;
     font-weight: bold;
     border-radius: 5px;
+    border-style: outset;
     text-align: center;
     cursor: pointer;
     width: 90%;
 }
 
+/* press button when hover/interactivity */
+.button:hover {
+    border-style: inset;
+}
 
+/* media query for mobile, change width to 100$ in column format */
 @media screen and (max-width: 600px){
     .contact-form {
         flex-direction: column;
@@ -90,20 +101,6 @@ header {
         font-size: 100%;
     }
 }
-
-/* .form-container {
-    box-shadow: 10px 10px black;
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-    background-color: blue;
-}
-
-@media only screen and (max-width: 600px){
-    .form-container {
-        width: 100vw;
-    }
-} */
 
 
 

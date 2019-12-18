@@ -32,6 +32,7 @@ if($_POST["send"]) {
 
 <body>
     <div id="page-wrapper">
+    <!-- navigation bar -->
     <nav>
         <div><a href="index.html">CZ</a></div>
         <div><a href="about.html">About</a></div>
@@ -43,13 +44,7 @@ if($_POST["send"]) {
     <header>
         <h1>Want to get in touch?</h1>
     </header>
-    <!-- <section>
-        <div class="contact-heading">
-        <h2>Drop me a line below</h2>
-        </div>
-    </section> -->
-
-
+    <!-- Contact Form -->
     <div class="form-container">
         <!-- <?=$thankYou?> -->
         <form method="POST" action="contact.php" class="contact-form">
@@ -58,17 +53,17 @@ if($_POST["send"]) {
                 <input type="text" name="lastname" class="input" placeholder="Last Name">
                 <input type="email" name="email" class="input" placeholder="Email Address">
                 <input type="text" name="subject" class="input" placeholder="Subject">
-
             </div>
+            <!-- message area -->
             <div class="message">
                 <textarea name="message" placeholder="Message"></textarea>
+                <!-- submit button -->
                 <div><input type="submit" class="button" name="send" value="SEND"></div>
             </div>
         </form>
     </div>
-
-
     </div>
+    <!-- Footer for copyright and media icons  -->
     <footer>
         <div class="icons">
         <a href=""><img src="instagram.png" alt="instagram"></a>

@@ -1,9 +1,10 @@
-
+/* background image below head banner */
 .main-contentport {
     background-image: url(images/ballroom.jpg);
     background-size: cover;
 }
 
+/* readability of preamble */
 .preamble {
     margin: 5%;
     text-align: center;
@@ -11,16 +12,12 @@
     color: black;
 }
 
-.headpf {
-    color: whitesmoke;
-}
-
-
+/* grid for portfolio cards, 4 columns for large viewwidth add more rows as cards added. */
 .portfolio-grid {
     
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     grid-gap: 2%;
     margin: 8% 8% 8% 8%;
     
@@ -35,7 +32,7 @@
 
 }
 
-
+/* card component for individual project */
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -43,13 +40,12 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    /* width: 20vw; */ 
     background-color: ghostwhite;
     box-shadow: 5px 5px;
-    /* padding: 5%; */
+ 
 }
 
-
+/* uniform size for image in card */
 .wrapper-image img {
     width: 280px;
     height: 250px;
@@ -62,12 +58,13 @@
     padding: 5%;
 }
 
-.text h1 {
+/* headings in each card */
+.text h2 {
     font-family: ivymode, sans-serif;
 }
 
+/* link to more information in card */
 .text a {
-    
     cursor: pointer;
     color: black;
 }

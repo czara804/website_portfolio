@@ -1,106 +1,7 @@
 .wrapper {
     background-color:  #0F1C2C;
 }
-
-.about {
-    padding: 5px;
-    margin-left: 25px;
-    width: 30rem;
-    height: fit-content;
-    background-color:#0F1C2C;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    /* border-left: 3px solid whitesmoke; */
-    color: whitesmoke;
-   }
-
-@media screen and (max-width: 800px) {
-    .about {
-        width: 95%;
-        height: fit-content;
-        margin-left: 5px;
-        background:  rgb(0, 0, 0, 0.5);
-        color: aliceblue;
-    }
-    .skills {
-        flex-direction: column;
-        flex-wrap: wrap;
-        
-    }    
-
-    .skills div {
-        width: 95%;
-    }
-
-    .pimg1 {
-        margin-top: calc(-70vh);
-    } 
-    
-}
-
-.ds {
-    background-color: #0F1C2C;
-    width: 31%;
-    text-align: center;
-}
-
-.comms {
-    background-color: #213951;
-    width: 31%;
-    text-align: center;
-}
-
-.hob {
-    /* background-color: #33507A; */
-    background-color: #0F1C2C;
-    width: 31%;
-    text-align: center;
-}
-
-
-.pimg1 {
-    background-image: url("images/hattah.JPG");
-    background-size: cover;
-    /* margin-left: 1em;
-    margin-right: 1em; */
-    height: 800px;
-    filter: saturate(50%);
-    margin-top: calc(-92vh);
-
-}
-
-.pimg2 {
-    background-image: url("images/trees.jpg");
-    background-size: cover;
-    /* margin-left: 1em;
-    margin-right: 1em; */
-    height: 800px;
-    filter: saturate(30%);
-    z-index: -1;
-}
-
-.pimg3 {
-    background-image: url("images/lisbon.jpeg");
-    background-size: cover;
-    /* margin-left: 1em;
-    margin-right: 1em; */
-    height: 2000px;
-    filter: saturate(30%);
-}
-
-
-.about h2, p {
-    margin: 20px;
-    padding: 5px;
-}
-
-.about h3 {
-    margin-left: 20px;
-    padding: 3px;
-}
-
-
+/* skills text component */
 .skills {
     background-color: whitesmoke;
     padding: 10px;
@@ -123,6 +24,106 @@
     /* margin-left: 5%; */
     margin-top: 10%;
 }
+
+/* classes for skills boxes */
+.ds {
+    background-color: #0F1C2C;
+    width: 31%;
+    text-align: center;
+}
+
+.comms {
+    background-color: #213951;
+    width: 31%;
+    text-align: center;
+}
+
+.hob {
+    background-color: #0F1C2C;
+    width: 31%;
+    text-align: center;
+}
+
+/* sticky about section to stay for scroll past pictures.  */
+.about {
+    padding: 5px;
+    margin-left: 25px;
+    width: 30rem;
+    height: fit-content;
+    background-color:#0F1C2C;
+    position: sticky;
+    top: 0;
+    /* move forward in z index due to filter */
+    z-index: 10;
+    color: whitesmoke;
+   }
+
+/* media query for new size for mobile responsiveness */
+@media screen and (max-width: 800px) {
+    .about {
+        width: 95%;
+        height: fit-content;
+        margin-left: 5px;
+        background:  rgb(0, 0, 0, 0.5);
+        color: aliceblue;
+    }
+    /* skills into column */
+    .skills {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }    
+
+    .skills div {
+        width: 95%;
+    }
+
+    .pimg1 {
+        margin-top: calc(-70vh);
+    } 
+    
+}
+
+
+
+/* background images for parallax effect */
+.pimg1 {
+    background-image: url("images/hattah.JPG");
+    background-size: cover;
+    height: 800px;
+    filter: saturate(50%);
+    margin-top: calc(-92vh);
+
+}
+
+.pimg2 {
+    background-image: url("images/trees.jpg");
+    background-size: cover;
+    height: 1200px;
+    filter: saturate(30%);
+    z-index: -1;
+}
+
+.pimg3 {
+    background-image: url("images/lisbon.jpeg");
+    background-size: cover;
+    height: 2000px;
+    filter: saturate(30%);
+}
+
+/* adjustments to headings in about me box */
+.about h2, p {
+    margin: 20px;
+    padding: 5px;
+}
+
+.about h3 {
+    margin-left: 20px;
+    padding: 3px;
+}
+
+
+
 
 .cv {
     border: 2px solid black;
