@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 if($_POST["send"]) {
     $recipient="cbzara@gmail.com";
@@ -15,8 +15,7 @@ if($_POST["send"]) {
 
     $thankYou= "Thank you! Your message has been sent.";
 }
-?> -->
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,7 +45,7 @@ if($_POST["send"]) {
     </header>
     <!-- Contact Form -->
     <div class="form-container">
-        <!-- <?=$thankYou?> -->
+        <?=$thankYou?>
         <form method="POST" action="contact.php" class="contact-form">
             <div class="inputs">
                 <input type="text" name="firstname" class="input" placeholder="First Name">
