@@ -62,7 +62,7 @@
 @media screen and (max-width: 800px) {
     .about {
         width: 95%;
-        /* height: fit-content; */
+        height: fit-content;
         height: 1000px;
         margin-left: 5px;
         background:  rgb(0, 0, 0, 0.5);
