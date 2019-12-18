@@ -91,7 +91,7 @@ nav div {
         margin-right: 5%;   
     }
     nav {
-        width: 100%;
+        width: fit-content;
         /* padding-right: 10%; */
     }
     nav div:nth-child(5) {
