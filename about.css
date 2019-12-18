@@ -81,7 +81,7 @@
     }
 
     .pimg1 {
-        margin-top: calc(-100vh); 
+        margin-top: calc(-90vh); 
     } 
 
     
@@ -96,7 +96,7 @@
     height: 800px;
     filter: saturate(50%);
     margin-top: calc(-92vh);
-    z-index: 0;
+    
     position: relative;
 }
 
@@ -105,8 +105,8 @@
     background-size: cover;
     height: 1200px;
     filter: saturate(30%);
-    z-index: 0;
-    position: relative;
+    z-index: -1;
+    
 }
 
 .pimg3 {
@@ -114,7 +114,7 @@
     background-size: cover;
     height: 2000px;
     filter: saturate(30%);
-    z-index: 0;
+   
     position: relative;
 }
 
