@@ -15,8 +15,8 @@ Tech stack (e.g. html, css, deployment platform, etc)
 
 ## Cassandra Zara 
 T1A3 - Portfolio 
-url:     .netlify
-GitHub repository: 
+url: https://cassandra-zara.netlify.com/
+GitHub repository: https://github.com/czara804/website_portfolio
 
 ## Purpose
 
@@ -25,7 +25,7 @@ This website serves as a digital resume for prospective employers seeking develo
 ## Tech Stack 
 - HTML
 - CSS
-- git version control & GitHub
+- Git version control & GitHub
 - Neflify for deployment
 - Subresource Integrity (SRI)
 
@@ -43,6 +43,20 @@ The 'Blog' contains a gallry, and individual posts each with a link to the origi
 
 ## Wireframes
 
+Homepage 
+![wireframes](docs/screenshots/wf_home.png)
+
+About
+![wireframes](docs/screenshots/wf_about.png)
+
+Portfolio
+![wireframes](docs/screenshots/wf_portfolio.png)
+
+Blog
+![wireframes](docs/screenshots/wf_blog.png)
+
+Contact 
+![wireframes](docs/screenshots/wf_contact.png)
 
 
 
@@ -51,28 +65,56 @@ The 'Blog' contains a gallry, and individual posts each with a link to the origi
 **Navigation Bar**
 At the top of each page for ease of access. The visited colours and underline have been removed as they disrupted the back and forth flow of the user. The links the in the navigation bar highlight when there is a hover and the cursor has been made a pointer. 
 
+![nav bar](docs/screenshots/nav.png)
+
 
 **Footer**
 The footer is at the bottom of each page and contains icons as anchors for professional links such as Linkedin and GitHub, and social links (Instagram) that give an impression of personality. The icons are shaped as hexagons to fit with the Art deco theme and coloured to quickly identify between them. 
 
+![footer](docs/screenshots/footer.png)
 
 Components 
-- 'About' sticky 
-- Portfolio cards
+- 'About' sticky container 
+- Portfolio cards (reuseable for expansion of folio)
 - Contact form 
 - CV button 
-- About parallax picture scroll 
+- 'About' parallax picture scroll 
 - Blog gallery
 - Homepage animation
 
 ## Responsiveness 
 
+Flex, grid and media querys were used in an effort to make the website reponsive at mobile, tablet and laptop viewport widths. 
+
+![home](docs/screenshots/responsiveness/rhome.png) 
+![about](docs/screenshots/responsiveness/rabout.png)
+![portfolio](docs/screenshots/responsiveness/rpf.png)
+![blog](docs/screenshots/responsiveness/rblog.png)
+![contact](docs/screenshots/responsiveness/rcontact.png)
+
 
 ## Accessibility
+
+- Accessibility for people with colour-blind vision was checked using 'Colorblind - Dalton for Google Chrome'
+- aXe 
+- HTML validation via 'https://validator.w3.org/'
 
 
 ## Style Aesthetic & Design Variations
 
 The website's aesthetic follows an Art Deco color theme of dark and mid blues with yellow/gold, black and white elements. 
+The header banner with name logo was styled in yellow and black are easy to read from far away as a combination and the text colour was modified to a dark blue to fit the aesthetic. 
+
+![logo](docs/screenshots/logo.png)
+
+**Main Design**
+
+![master theme](docs/screenshots/artdeco.png)
+
+**Pink Aesthetic**
+
+![Branch Pink Aesthetic](docs/screenshots/pink.png)
 
 ## Mood boards
+
+![Moodboard](docs/screenshots/mood_board.png)
