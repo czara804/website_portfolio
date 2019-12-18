@@ -75,7 +75,6 @@ The footer is at the bottom of each page and contains icons as anchors for profe
 ![footer](docs/screenshots/footer.png)
 
 
-
 Components 
 'About' sticky container 
 

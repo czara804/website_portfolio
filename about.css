@@ -62,7 +62,6 @@
 @media screen and (max-width: 800px) {
     .about {
         width: 95%;
-        height: fit-content;
         /* height: 1000px; */
         margin-left: 5px;
         background:  rgb(0, 0, 0, 0.5);
@@ -103,7 +102,6 @@
     height: 800px;
     filter: saturate(50%);
     margin-top: calc(-92vh);
-    
     position: relative;
 }
 
@@ -112,8 +110,7 @@
     background-size: cover;
     height: 1200px;
     filter: saturate(30%);
-    z-index: -1;
-    
+    z-index: -1; 
 }
 
 .pimg3 {
@@ -121,7 +118,6 @@
     background-size: cover;
     height: 2000px;
     filter: saturate(30%);
-   
     position: relative;
 }
 
