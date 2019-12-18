@@ -74,7 +74,9 @@ The footer is at the bottom of each page and contains icons as anchors for profe
 ![footer](docs/screenshots/footer.png)
 
 Components 
-- 'About' sticky container 
+'About' sticky container 
+
+
 - Portfolio cards (reuseable for expansion of folio)
 - Contact form 
 - CV button 
