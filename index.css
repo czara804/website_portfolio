@@ -67,12 +67,12 @@
     }
     
     .blurb {
-        /* padding-top: 20%; */
         margin-right: 10em;
         margin-left: 20%;
     }
 }
 
+/* media query for padding for large screen */
 @media screen and (min-width: 1600px) {
     .intro-head {
         padding-left: 20%;
