@@ -5,6 +5,7 @@
     height: 100em;
 } */
 
+/* mobile screen width */
 .main-content {
     background-image: url(images/homer.png);
     background-size: auto;
@@ -50,38 +51,38 @@
     }
 
     .intro-head h1 {
-    font-size: 500%;
+        font-size: 500%;
     }
 
     .intro-head {
-        padding-top: 5em;
-        padding-left: 19em;
+        padding-top: 4em;
+        padding-left: 20%;
         animation-name: title;
         animation-duration: 3s;
     }
 
-    .blurb {
-        padding-top: 20%;
-        margin-right: 16em;
-        margin-left: 19em;
-    }
-
     .intro-invite {
-        padding: 2em; 
-        margin-left: 17em;
+        padding-top: 3em; 
+        margin-left: 20%;
+    }
+    
+    .blurb {
+        /* padding-top: 20%; */
+        margin-right: 10em;
+        margin-left: 20%;
     }
 }
 
 @media screen and (min-width: 1600px) {
     .intro-head {
-        padding-left: 25em;
+        padding-left: 20%;
     }
     .blurb {
-        padding-left: 15em;
+        padding-left: 20%;
     }
 
     .intro-invite {
-        margin-left: 20em;
+        margin-left: 20%;
     }
 
 
