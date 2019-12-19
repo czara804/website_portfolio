@@ -19,8 +19,8 @@
 
 /* elaborations */
 .intro-invite {
-    padding: 2em;
-    margin-left: 17em;
+    /* padding: 2em; */
+    /* margin-left: 17em; */
 
 }
 
@@ -37,12 +37,13 @@
     animation-duration: 3s;
 }
 
-.blurb, .intro-invite{
+.blurb, {
     padding-top: 20%;
     margin-right: 16em;
     margin-left: 19em;
 }
 }
+
 
 /* animation for homepage, drop down from top */
 @keyframes title {
