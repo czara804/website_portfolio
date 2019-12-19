@@ -72,6 +72,20 @@
     }
 }
 
+@media screen and (min-width: 1600px) {
+    .intro-head {
+        padding-left: 25em;
+    }
+    .blurb {
+        padding-left: 15em;
+    }
+
+    .intro-invite {
+        margin-left: 20em;
+    }
+
+
+}
 
 /* animation for homepage, drop down from top */
 @keyframes title {
