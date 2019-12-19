@@ -3,8 +3,6 @@
     background-image: url(images/vball.jpg);
     background-size: cover;
     height: 100em;
-   
-
 }
 
 /* Name/Logo */
@@ -39,7 +37,7 @@
     animation-duration: 3s;
 }
 
-.blurb {
+.blurb, .intro-invite{
     padding-top: 20%;
     margin-right: 16em;
     margin-left: 19em;
