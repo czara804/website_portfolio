@@ -101,7 +101,7 @@
     background-size: cover;
     height: 800px;
     filter: saturate(50%);
-    margin-top: calc(-92vh);
+    margin-top: calc(-90vh);
     position: relative;
 }
 
