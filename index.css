@@ -1,6 +1,7 @@
 /* homepage background */
 .main-content {
     background-image: url(images/vball.jpg);
+    background-size: cover;
     height: 100em;
    
 
