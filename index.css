@@ -1,8 +1,14 @@
 /* homepage background */
-.main-content {
+/* .main-content {
     background-image: url(images/vball.jpg);
     background-size: cover;
     height: 100em;
+} */
+
+.main-content {
+    background-image: url(images/homer.png);
+    background-size: cover;
+    height: 80em;
 }
 
 /* Name/Logo */
@@ -26,22 +32,29 @@
 
 /* readjust size for large screens */
 @media screen and (min-width: 700px) {
+    
+    .main-content {
+        background-image: url(images/vball.jpg);
+        background-size: cover;
+        height: 100em;
+    }
+
     .intro-head h1 {
     font-size: 500%;
     }
 
-.intro-head {
-    padding-top: 5em;
-    padding-left: 19em;
-    animation-name: title;
-    animation-duration: 3s;
-}
+    .intro-head {
+        padding-top: 5em;
+        padding-left: 19em;
+        animation-name: title;
+        animation-duration: 3s;
+    }
 
-.blurb, {
-    padding-top: 20%;
-    margin-right: 16em;
-    margin-left: 19em;
-}
+    .blurb, {
+        padding-top: 20%;
+        margin-right: 16em;
+        margin-left: 19em;
+    }
 }
 
 
