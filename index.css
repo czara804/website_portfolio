@@ -7,8 +7,8 @@
 
 .main-content {
     background-image: url(images/homer.png);
-    background-size: cover;
-    height: 80em;
+    background-size: auto;
+    height: 50em;
 }
 
 /* Name/Logo */
@@ -25,9 +25,19 @@
 
 /* elaborations */
 .intro-invite {
-    /* padding: 2em; */
-    /* margin-left: 17em; */
+    padding: 2em; 
+    /* margin-left: 10%; */
+    margin-right: 30%;
+    border-bottom: solid 3px whitesmoke;
 
+}
+
+/* elaborations alignment */
+.blurb p {
+    margin-left: 0;  
+    margin-right: 50%;
+    padding-top: 30%;
+    padding-left: 2em;
 }
 
 /* readjust size for large screens */
@@ -50,10 +60,15 @@
         animation-duration: 3s;
     }
 
-    .blurb, {
+    .blurb {
         padding-top: 20%;
         margin-right: 16em;
         margin-left: 19em;
+    }
+
+    .intro-invite {
+        padding: 2em; 
+        margin-left: 17em;
     }
 }
 
@@ -65,9 +80,3 @@
 
 }
 
-/* elaborations alignment */
-.blurb p {
-    margin-left: 0;  
-    margin-right: 50%;
-    padding-top: 30%;
-}
